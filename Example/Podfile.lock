@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SLCNightLogger: 2d6555133ff8e8e7a994754beb08a71e4ffe52e5
+  SLCNightLogger: 0fffa0b1108120ddd4401ee74702a36dfef4d09e
 
 COCOAPODS: 0.36.4
