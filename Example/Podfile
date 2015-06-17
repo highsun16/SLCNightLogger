@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SLCNightLogger_Example', :exclusive => true do
+  pod "SLCNightLogger", :path => "../"
+end
+
+target 'SLCNightLogger_Tests', :exclusive => true do
+  pod "SLCNightLogger", :path => "../"
+
+  
+end
