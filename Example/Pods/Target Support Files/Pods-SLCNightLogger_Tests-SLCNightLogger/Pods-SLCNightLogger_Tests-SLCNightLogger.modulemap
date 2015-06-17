@@ -1,0 +1,6 @@
+framework module SLCNightLogger {
+  umbrella header "Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}
