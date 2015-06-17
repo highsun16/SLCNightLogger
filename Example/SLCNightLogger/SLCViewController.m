@@ -7,6 +7,7 @@
 //
 
 #import "SLCViewController.h"
+#import <SLCNightLogger/SLCNightLogger.h>
 
 @interface SLCViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    SLCNightLogger *nightLogger = [[SLCNightLogger alloc] init];
+    [nightLogger printLog];
 }
 
 - (void)didReceiveMemoryWarning

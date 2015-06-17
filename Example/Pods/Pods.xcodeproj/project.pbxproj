@@ -7,405 +7,379 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CBE181CD70F44555AF4697F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B12EFB3BE1EC2CE363A044 /* Foundation.framework */; };
-		21610B8135C3D0FCA917AD32 /* SLCNightLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B8BC59CB93CBE4CFCF6E5 /* SLCNightLogger.m */; };
-		225DF9BBECE51457417EEF97 /* SLCNightLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5687BE56CF164AB59373F5D8 /* SLCNightLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C04E1EB5BC105D9430893E6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D157769A707DDD4502337 /* ReplaceMe.m */; };
-		3BCDEDEC2425A61726A31BF4 /* SLCNightLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D2EEDA1586BB77965573E64 /* SLCNightLogger.bundle */; };
-		3F74CEDBD82321B2EF09F747 /* SLCNightLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B8BC59CB93CBE4CFCF6E5 /* SLCNightLogger.m */; };
-		4F83576A51550F42F500EB5B /* Pods-SLCNightLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F09ACCB334323F28591A710 /* Pods-SLCNightLogger_Example-dummy.m */; };
-		5BC27F462738D6FD5AAA52C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B12EFB3BE1EC2CE363A044 /* Foundation.framework */; };
-		66FE63A00C72CF85F7FCF0E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B12EFB3BE1EC2CE363A044 /* Foundation.framework */; };
-		67A9212606689AE62EAED341 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 587D157769A707DDD4502337 /* ReplaceMe.m */; };
-		960CEC84A235CBBDEB3D55C8 /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DAE8B7BF46257F79739D6D /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m */; };
-		A5778F7AC88111CEAB6E917E /* Pods-SLCNightLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB951215928B0713A95E2DC /* Pods-SLCNightLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEB7FC9E97BD8835AC9CFA2D /* Pods-SLCNightLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D79DCDDF023BA271BF83277 /* Pods-SLCNightLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B78F73FF4CBCB3C86B5490BE /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A10668629913A288C26968 /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA5D7E9D517DA64F5FB8F381 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF2D6FCE960325BA0E3444 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m */; };
-		CE1D7AEF0FA3A97515F24616 /* SLCNightLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4BB96980F363329BD595BA /* SLCNightLogger.bundle */; };
-		D7935B912EEB96A4261D06BD /* SLCNightLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5687BE56CF164AB59373F5D8 /* SLCNightLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9BEDF0D8FB89E57500E3AD4 /* Pods-SLCNightLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AA7062C96A988045010A69 /* Pods-SLCNightLogger_Tests-dummy.m */; };
-		E6FC37466B1E68E4635B60EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B12EFB3BE1EC2CE363A044 /* Foundation.framework */; };
-		F24F5D245F9D0CF1B344305A /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B3046B5677D303C6AEDF82 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0088C4B6EA4D2070F5FD5AB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E032FA4D73368BBDDBAA53AB /* Foundation.framework */; };
+		010E4C3D0E3C53B23007CAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E032FA4D73368BBDDBAA53AB /* Foundation.framework */; };
+		158E71B59E33BA0273AB97FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4EFB21F0B3489CEA5EBEB0 /* ReplaceMe.m */; };
+		1F212D0526545FDF74C9E32D /* SLCNightLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 72532F75381C60314601388D /* SLCNightLogger.m */; };
+		222779E1F5CC89EE0CB2FDAD /* Pods-SLCNightLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4847D1C22DB56003C3579D5 /* Pods-SLCNightLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27360F6F7773BBB4A9EC0B9B /* Pods-SLCNightLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4B192D0B7B1C217B5B37B7 /* Pods-SLCNightLogger_Example-dummy.m */; };
+		487153F9DDD398AE31E70321 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F78876BAFDD0DADE8F45232 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501AA9118AC3162306CB9BF8 /* Pods-SLCNightLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 657BF901E335C957491F8366 /* Pods-SLCNightLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562D27CBB8A64A9CAFFD0304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E032FA4D73368BBDDBAA53AB /* Foundation.framework */; };
+		65D920499CCFE4148AC8B7C9 /* SLCNightLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E670AE661D13A229D8199F55 /* SLCNightLogger.bundle */; };
+		66B2235C647860B795CC5935 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CA9481E001ECCC53784FF1 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m */; };
+		72571F32E74749713DB9948E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E032FA4D73368BBDDBAA53AB /* Foundation.framework */; };
+		7C75656F71B773C0B2C2A275 /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E9316A63F03FB9296CC69C /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A59185B248B86A35A82DE056 /* Pods-SLCNightLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3632EA1A89D9E24B0C3515FE /* Pods-SLCNightLogger_Tests-dummy.m */; };
+		A84DD4E2D7AD4881D3EC079D /* SLCNightLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C15832E4848DF3274617EE04 /* SLCNightLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACD4C9FD1D684656143E33B2 /* SLCDayLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C73629F55845C4678041B343 /* SLCDayLogger.m */; };
+		BC43912F9D559C8BE267167B /* SLCNightLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C15832E4848DF3274617EE04 /* SLCNightLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0564C82E062FE607F844351 /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A607F2180D1DD4EE0382C5B3 /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m */; };
+		C17343C265EA747BC3802548 /* SLCNightLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5C87916E6900692B936C0B3 /* SLCNightLogger.bundle */; };
+		DEED6483BA08754C58483499 /* SLCDayLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A59011757D06BAB9E2876B /* SLCDayLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84CD38969217A99EFAA3633 /* SLCNightLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 72532F75381C60314601388D /* SLCNightLogger.m */; };
+		F0021FEF7A9DB397C6F81AAF /* SLCDayLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A59011757D06BAB9E2876B /* SLCDayLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F681C23F87C55605D1A80DAB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4EFB21F0B3489CEA5EBEB0 /* ReplaceMe.m */; };
+		F99B5D63628B45E7EECE0912 /* SLCDayLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C73629F55845C4678041B343 /* SLCDayLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13E383B3D2D063A742AC9117 /* PBXContainerItemProxy */ = {
+		0F67E433B84261785D98F243 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9D7EB592FE66B8A462CFC23 /* Project object */;
+			containerPortal = 23DCB073515880B28B452367 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FB80E2FB775619D96B16BA8;
-			remoteInfo = "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger";
+			remoteGlobalIDString = 11B391BD82FB1A69D49BF76A;
+			remoteInfo = "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger";
 		};
-		21D0D19C326AB372D9210928 /* PBXContainerItemProxy */ = {
+		6EC62F63358EEA37EC444C40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9D7EB592FE66B8A462CFC23 /* Project object */;
+			containerPortal = 23DCB073515880B28B452367 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F0E0DDEBAE9831B9301D932;
-			remoteInfo = "Pods-SLCNightLogger_Tests-SLCNightLogger";
-		};
-		72CA18D4D2A184335A6E3B89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9D7EB592FE66B8A462CFC23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A64AD35A4A69097237A45E2F;
+			remoteGlobalIDString = C35D27F6CC5BADCFC991DC00;
 			remoteInfo = "Pods-SLCNightLogger_Example-SLCNightLogger";
 		};
-		BE61C0ECAAD2D0B5ABA2217D /* PBXContainerItemProxy */ = {
+		800E514BC15BFD3CED7AD381 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E9D7EB592FE66B8A462CFC23 /* Project object */;
+			containerPortal = 23DCB073515880B28B452367 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 614C04205080EE05D8391EBC;
-			remoteInfo = "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger";
+			remoteGlobalIDString = 8683EAFF4B40EC696B261C8F;
+			remoteInfo = "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger";
+		};
+		C8AD26A636FE94D32FD43CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DCB073515880B28B452367 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C00C8D1822C53DB9561DEF56;
+			remoteInfo = "Pods-SLCNightLogger_Tests-SLCNightLogger";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059182E1783D2BF3A7990F69 /* Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch"; sourceTree = "<group>"; };
-		0687E717115BBA53D30C188F /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig"; sourceTree = "<group>"; };
-		0CB5EFFA33C6E1406AEF726C /* Pods-SLCNightLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SLCNightLogger_Example.modulemap"; sourceTree = "<group>"; };
-		0F09ACCB334323F28591A710 /* Pods-SLCNightLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLCNightLogger_Example-dummy.m"; sourceTree = "<group>"; };
-		131A43E5DA8A3073A0810316 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1BA4A2B245B5AEA8756A7B32 /* Pods-SLCNightLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Example-resources.sh"; sourceTree = "<group>"; };
-		1D2EEDA1586BB77965573E64 /* SLCNightLogger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCNightLogger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		25F8BBB1A115D1C0AC9B70B6 /* Pods-SLCNightLogger_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-environment.h"; sourceTree = "<group>"; };
-		276824CBFCAAE07D8659C05B /* Pods-SLCNightLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLCNightLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		27F1CEFD5DEACCA5506E5DDC /* Pods-SLCNightLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2E64B9AD0C13C5BD523C4931 /* Pods-SLCNightLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Tests-resources.sh"; sourceTree = "<group>"; };
-		39BD6512CD90F4A265174DB5 /* Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap"; sourceTree = "<group>"; };
-		443AB627B03D2B7CF22B0129 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig"; sourceTree = "<group>"; };
-		44965161D8C258FC208E68E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Info.plist"; sourceTree = "<group>"; };
-		468E458EF89F4C8F4C35E7A0 /* Pods-SLCNightLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLCNightLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46AA7062C96A988045010A69 /* Pods-SLCNightLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLCNightLogger_Tests-dummy.m"; sourceTree = "<group>"; };
-		52B4B6E70B4F9B8688797F01 /* Pods-SLCNightLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		533932BBAE8CCDCF165A4DC0 /* Pods-SLCNightLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLCNightLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5687BE56CF164AB59373F5D8 /* SLCNightLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLCNightLogger.h; sourceTree = "<group>"; };
-		587D157769A707DDD4502337 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		5D79DCDDF023BA271BF83277 /* Pods-SLCNightLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
-		62DBE38AC3A2D3B0E9C907AC /* Pods-SLCNightLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLCNightLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E0E9B6498249AFD5D4572DB /* Pods-SLCNightLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6F08B37E152AE643345023A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78063618DBA2DC9A493DE353 /* Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch"; sourceTree = "<group>"; };
-		79C8FFFC6857BF5C381EB513 /* Pods_SLCNightLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLCNightLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A16B621CF05EE7D3B7D59D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96DAE8B7BF46257F79739D6D /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m"; sourceTree = "<group>"; };
-		971D877F08327B337AFE2DA1 /* Pods-SLCNightLogger_Example-SLCNightLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SLCNightLogger_Example-SLCNightLogger.modulemap"; sourceTree = "<group>"; };
-		9917246FD292951C9A0DAA46 /* Pods-SLCNightLogger_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Tests-environment.h"; sourceTree = "<group>"; };
-		9F6F85D2E1BE43FD1E835857 /* Pods-SLCNightLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B0E4088A356533A033EC5A31 /* Pods_SLCNightLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLCNightLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B35BED1470AA2C4AF6F8CCDF /* Pods-SLCNightLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B4BF2D6FCE960325BA0E3444 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m"; sourceTree = "<group>"; };
-		BABF24A6944B081062B7AEEB /* SLCNightLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCNightLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAE1E3254F0A3917DCA135AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCA08D2D3130CA40041E9DF0 /* SLCNightLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCNightLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFB951215928B0713A95E2DC /* Pods-SLCNightLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-umbrella.h"; sourceTree = "<group>"; };
-		C22F7FF79C2C65C6604D4970 /* Pods-SLCNightLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SLCNightLogger_Tests.modulemap"; sourceTree = "<group>"; };
-		C4A10668629913A288C26968 /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h"; sourceTree = "<group>"; };
-		C4A9987E7060D80F1A7E9EE6 /* Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig"; sourceTree = "<group>"; };
-		CC6B8BC59CB93CBE4CFCF6E5 /* SLCNightLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLCNightLogger.m; sourceTree = "<group>"; };
-		CCB009D7C69763BB1AD79848 /* Pods-SLCNightLogger_Example-SLCNightLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example-SLCNightLogger.xcconfig"; sourceTree = "<group>"; };
-		D6044BF2B38DE639DC8F26CC /* Pods-SLCNightLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E3B12EFB3BE1EC2CE363A044 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F2B3046B5677D303C6AEDF82 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h"; sourceTree = "<group>"; };
-		FC4BB96980F363329BD595BA /* SLCNightLogger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCNightLogger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		056738DD0C130EA07EFF562C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		080495276332A936C8835C72 /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig"; sourceTree = "<group>"; };
+		1120BF5AACC0C1A1C974D33D /* Pods-SLCNightLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Tests-resources.sh"; sourceTree = "<group>"; };
+		1F49A362351BE1EA61291608 /* Pods-SLCNightLogger_Example-SLCNightLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example-SLCNightLogger.xcconfig"; sourceTree = "<group>"; };
+		24020ED22B09B61579137C24 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig"; sourceTree = "<group>"; };
+		29A59011757D06BAB9E2876B /* SLCDayLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLCDayLogger.h; sourceTree = "<group>"; };
+		2F9BF41BA880E6771A460771 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303F5E1C34346822A413FF6E /* Pods-SLCNightLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SLCNightLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		3632EA1A89D9E24B0C3515FE /* Pods-SLCNightLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLCNightLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		38C6C62D0D4788731244AAF8 /* Pods-SLCNightLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		43C6B52CE003287C9E30E8D0 /* Pods-SLCNightLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54FC913F2D4B49960FEFEA2C /* Pods-SLCNightLogger_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Tests-environment.h"; sourceTree = "<group>"; };
+		5A4B192D0B7B1C217B5B37B7 /* Pods-SLCNightLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLCNightLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		5BBA25A476F63B075A89B7BB /* Pods-SLCNightLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLCNightLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6082DB6389FE4C0A06969EDC /* Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch"; sourceTree = "<group>"; };
+		657BF901E335C957491F8366 /* Pods-SLCNightLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		65B7CC43BD195F9B53A4DEC8 /* Pods_SLCNightLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLCNightLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72532F75381C60314601388D /* SLCNightLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLCNightLogger.m; sourceTree = "<group>"; };
+		74CA9481E001ECCC53784FF1 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m"; sourceTree = "<group>"; };
+		775605A9E5FD13C69424F899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8179C8A5897C844926F61113 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838400BC0962415C6C40CA7C /* Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch"; sourceTree = "<group>"; };
+		83BD5975D8E836167B1C0EA0 /* Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig"; sourceTree = "<group>"; };
+		849C54A99070EC2909274847 /* Pods-SLCNightLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLCNightLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		86900C9B61ABB603AAFE3098 /* Pods-SLCNightLogger_Example-SLCNightLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SLCNightLogger_Example-SLCNightLogger.modulemap"; sourceTree = "<group>"; };
+		8A54CF2D00C81AB8891624AB /* Pods-SLCNightLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F78876BAFDD0DADE8F45232 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h"; sourceTree = "<group>"; };
+		90E9316A63F03FB9296CC69C /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h"; sourceTree = "<group>"; };
+		95DE0AC8C45FCD01E3FB70AA /* Pods-SLCNightLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9A4215A5EDD3AFB4A6AD0873 /* Pods-SLCNightLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLCNightLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A607F2180D1DD4EE0382C5B3 /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m"; sourceTree = "<group>"; };
+		AFF742FBC27E87F783237B14 /* SLCNightLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCNightLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF93A6FEA035D0C6454EE1E2 /* SLCNightLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLCNightLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15832E4848DF3274617EE04 /* SLCNightLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SLCNightLogger.h; sourceTree = "<group>"; };
+		C5C87916E6900692B936C0B3 /* SLCNightLogger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCNightLogger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B4AE6066126C979CA268F7 /* Pods_SLCNightLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLCNightLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C73629F55845C4678041B343 /* SLCDayLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SLCDayLogger.m; sourceTree = "<group>"; };
+		CEC1208A290DB7E26DDE8637 /* Pods-SLCNightLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLCNightLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF35FFFB8C73D751B042E4BB /* Pods-SLCNightLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D7AE7AA9C42C3C71734E793E /* Pods-SLCNightLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLCNightLogger_Example-resources.sh"; sourceTree = "<group>"; };
+		DB4EFB21F0B3489CEA5EBEB0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		DB83F9806C52FD9FEECDC1A9 /* Pods-SLCNightLogger_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-environment.h"; sourceTree = "<group>"; };
+		E032FA4D73368BBDDBAA53AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4847D1C22DB56003C3579D5 /* Pods-SLCNightLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLCNightLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		E670AE661D13A229D8199F55 /* SLCNightLogger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLCNightLogger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FB6A0339EACF2E36BB22BA /* Pods-SLCNightLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SLCNightLogger_Example.modulemap"; sourceTree = "<group>"; };
+		ED9E7D336B5B6B840AFBEF71 /* Pods-SLCNightLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLCNightLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F49589F2999A662ADE4A8B25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Info.plist"; sourceTree = "<group>"; };
+		F7F8275AE594720E50B996C7 /* Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap"; path = "../Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		133978FF9A7F6DBF39D0A9F8 /* Frameworks */ = {
+		41BA8DFE04D72FDFBB45CE89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D64CF8ABA07EA9BFFC434E3 /* Frameworks */ = {
+		67CCC3B767D2CC090DC26E9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6FC37466B1E68E4635B60EA /* Foundation.framework in Frameworks */,
+				72571F32E74749713DB9948E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48800351C17B50BC4AF2DF00 /* Frameworks */ = {
+		AC1A1B1BEA76EA4C81564C49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC27F462738D6FD5AAA52C0 /* Foundation.framework in Frameworks */,
+				562D27CBB8A64A9CAFFD0304 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FF36F06BA5A276592D0130C /* Frameworks */ = {
+		AF043DE88F9595749AEDCC4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010E4C3D0E3C53B23007CAEC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87730A92F8F38F0BC0AC8436 /* Frameworks */ = {
+		D2077097FAC4D8DCDEED8F46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CBE181CD70F44555AF4697F /* Foundation.framework in Frameworks */,
+				0088C4B6EA4D2070F5FD5AB6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88751039C3D79FE21CC53261 /* Frameworks */ = {
+		F59456193056B840539DED7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66FE63A00C72CF85F7FCF0E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CDB7A4AC3BB520E2F09994B = {
+		1F2A011379123BB44BE15A5A /* Pods-SLCNightLogger_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				131A43E5DA8A3073A0810316 /* Podfile */,
-				AE902487B71E7F50A4951C98 /* Development Pods */,
-				E4FC40B2BB28EBAD02F3776D /* Frameworks */,
-				1D69F31C7FD7435D381F2000 /* Products */,
-				641F520026FDF4AD2CF06ECC /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		1C1440C585E4FD4B5DCA452E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6F08B37E152AE643345023A2 /* Info.plist */,
-				44965161D8C258FC208E68E8 /* Info.plist */,
-				971D877F08327B337AFE2DA1 /* Pods-SLCNightLogger_Example-SLCNightLogger.modulemap */,
-				CCB009D7C69763BB1AD79848 /* Pods-SLCNightLogger_Example-SLCNightLogger.xcconfig */,
-				443AB627B03D2B7CF22B0129 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */,
-				B4BF2D6FCE960325BA0E3444 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m */,
-				059182E1783D2BF3A7990F69 /* Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch */,
-				C4A10668629913A288C26968 /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h */,
-				39BD6512CD90F4A265174DB5 /* Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap */,
-				C4A9987E7060D80F1A7E9EE6 /* Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig */,
-				0687E717115BBA53D30C188F /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */,
-				96DAE8B7BF46257F79739D6D /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m */,
-				78063618DBA2DC9A493DE353 /* Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch */,
-				F2B3046B5677D303C6AEDF82 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger";
-			sourceTree = "<group>";
-		};
-		1D69F31C7FD7435D381F2000 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				79C8FFFC6857BF5C381EB513 /* Pods_SLCNightLogger_Example.framework */,
-				B0E4088A356533A033EC5A31 /* Pods_SLCNightLogger_Tests.framework */,
-				1D2EEDA1586BB77965573E64 /* SLCNightLogger.bundle */,
-				FC4BB96980F363329BD595BA /* SLCNightLogger.bundle */,
-				BCA08D2D3130CA40041E9DF0 /* SLCNightLogger.framework */,
-				BABF24A6944B081062B7AEEB /* SLCNightLogger.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3EB176CD22D92608DB83EF1E /* Pods-SLCNightLogger_Example */ = {
-			isa = PBXGroup;
-			children = (
-				BAE1E3254F0A3917DCA135AC /* Info.plist */,
-				0CB5EFFA33C6E1406AEF726C /* Pods-SLCNightLogger_Example.modulemap */,
-				468E458EF89F4C8F4C35E7A0 /* Pods-SLCNightLogger_Example-acknowledgements.markdown */,
-				533932BBAE8CCDCF165A4DC0 /* Pods-SLCNightLogger_Example-acknowledgements.plist */,
-				0F09ACCB334323F28591A710 /* Pods-SLCNightLogger_Example-dummy.m */,
-				25F8BBB1A115D1C0AC9B70B6 /* Pods-SLCNightLogger_Example-environment.h */,
-				27F1CEFD5DEACCA5506E5DDC /* Pods-SLCNightLogger_Example-frameworks.sh */,
-				1BA4A2B245B5AEA8756A7B32 /* Pods-SLCNightLogger_Example-resources.sh */,
-				BFB951215928B0713A95E2DC /* Pods-SLCNightLogger_Example-umbrella.h */,
-				9F6F85D2E1BE43FD1E835857 /* Pods-SLCNightLogger_Example.debug.xcconfig */,
-				D6044BF2B38DE639DC8F26CC /* Pods-SLCNightLogger_Example.release.xcconfig */,
-			);
-			name = "Pods-SLCNightLogger_Example";
-			path = "Target Support Files/Pods-SLCNightLogger_Example";
-			sourceTree = "<group>";
-		};
-		641F520026FDF4AD2CF06ECC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3EB176CD22D92608DB83EF1E /* Pods-SLCNightLogger_Example */,
-				662CD0E02C54387C3FB3BCB2 /* Pods-SLCNightLogger_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		662CD0E02C54387C3FB3BCB2 /* Pods-SLCNightLogger_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7A16B621CF05EE7D3B7D59D2 /* Info.plist */,
-				C22F7FF79C2C65C6604D4970 /* Pods-SLCNightLogger_Tests.modulemap */,
-				276824CBFCAAE07D8659C05B /* Pods-SLCNightLogger_Tests-acknowledgements.markdown */,
-				62DBE38AC3A2D3B0E9C907AC /* Pods-SLCNightLogger_Tests-acknowledgements.plist */,
-				46AA7062C96A988045010A69 /* Pods-SLCNightLogger_Tests-dummy.m */,
-				9917246FD292951C9A0DAA46 /* Pods-SLCNightLogger_Tests-environment.h */,
-				52B4B6E70B4F9B8688797F01 /* Pods-SLCNightLogger_Tests-frameworks.sh */,
-				2E64B9AD0C13C5BD523C4931 /* Pods-SLCNightLogger_Tests-resources.sh */,
-				5D79DCDDF023BA271BF83277 /* Pods-SLCNightLogger_Tests-umbrella.h */,
-				B35BED1470AA2C4AF6F8CCDF /* Pods-SLCNightLogger_Tests.debug.xcconfig */,
-				6E0E9B6498249AFD5D4572DB /* Pods-SLCNightLogger_Tests.release.xcconfig */,
+				2F9BF41BA880E6771A460771 /* Info.plist */,
+				303F5E1C34346822A413FF6E /* Pods-SLCNightLogger_Tests.modulemap */,
+				849C54A99070EC2909274847 /* Pods-SLCNightLogger_Tests-acknowledgements.markdown */,
+				5BBA25A476F63B075A89B7BB /* Pods-SLCNightLogger_Tests-acknowledgements.plist */,
+				3632EA1A89D9E24B0C3515FE /* Pods-SLCNightLogger_Tests-dummy.m */,
+				54FC913F2D4B49960FEFEA2C /* Pods-SLCNightLogger_Tests-environment.h */,
+				95DE0AC8C45FCD01E3FB70AA /* Pods-SLCNightLogger_Tests-frameworks.sh */,
+				1120BF5AACC0C1A1C974D33D /* Pods-SLCNightLogger_Tests-resources.sh */,
+				657BF901E335C957491F8366 /* Pods-SLCNightLogger_Tests-umbrella.h */,
+				8A54CF2D00C81AB8891624AB /* Pods-SLCNightLogger_Tests.debug.xcconfig */,
+				CF35FFFB8C73D751B042E4BB /* Pods-SLCNightLogger_Tests.release.xcconfig */,
 			);
 			name = "Pods-SLCNightLogger_Tests";
 			path = "Target Support Files/Pods-SLCNightLogger_Tests";
 			sourceTree = "<group>";
 		};
-		67897B95F181044CA5460A92 /* Pod */ = {
+		3CE4C9EA22740EA8BDA81E2C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D8B9AE9FD17D1E25F218A939 /* Classes */,
+				DB4EFB21F0B3489CEA5EBEB0 /* ReplaceMe.m */,
+				29A59011757D06BAB9E2876B /* SLCDayLogger.h */,
+				C73629F55845C4678041B343 /* SLCDayLogger.m */,
+				C15832E4848DF3274617EE04 /* SLCNightLogger.h */,
+				72532F75381C60314601388D /* SLCNightLogger.m */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		9FB135192B81E48D92CAB315 /* iOS */ = {
+		57E948E466EA1265A8C42DD1 /* Pods-SLCNightLogger_Example */ = {
 			isa = PBXGroup;
 			children = (
-				E3B12EFB3BE1EC2CE363A044 /* Foundation.framework */,
+				8179C8A5897C844926F61113 /* Info.plist */,
+				E7FB6A0339EACF2E36BB22BA /* Pods-SLCNightLogger_Example.modulemap */,
+				CEC1208A290DB7E26DDE8637 /* Pods-SLCNightLogger_Example-acknowledgements.markdown */,
+				9A4215A5EDD3AFB4A6AD0873 /* Pods-SLCNightLogger_Example-acknowledgements.plist */,
+				5A4B192D0B7B1C217B5B37B7 /* Pods-SLCNightLogger_Example-dummy.m */,
+				DB83F9806C52FD9FEECDC1A9 /* Pods-SLCNightLogger_Example-environment.h */,
+				38C6C62D0D4788731244AAF8 /* Pods-SLCNightLogger_Example-frameworks.sh */,
+				D7AE7AA9C42C3C71734E793E /* Pods-SLCNightLogger_Example-resources.sh */,
+				E4847D1C22DB56003C3579D5 /* Pods-SLCNightLogger_Example-umbrella.h */,
+				43C6B52CE003287C9E30E8D0 /* Pods-SLCNightLogger_Example.debug.xcconfig */,
+				ED9E7D336B5B6B840AFBEF71 /* Pods-SLCNightLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-SLCNightLogger_Example";
+			path = "Target Support Files/Pods-SLCNightLogger_Example";
+			sourceTree = "<group>";
+		};
+		7743F10E969630E05354067B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E032FA4D73368BBDDBAA53AB /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AE902487B71E7F50A4951C98 /* Development Pods */ = {
+		8AF36F86FC1E711B451E22EA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3162851D76A4C031315C8C3 /* SLCNightLogger */,
+				A7F35361F23BD66DF299936F /* SLCNightLogger */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B3162851D76A4C031315C8C3 /* SLCNightLogger */ = {
+		A0932176B8A2C79B190BD096 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				67897B95F181044CA5460A92 /* Pod */,
-				1C1440C585E4FD4B5DCA452E /* Support Files */,
+				7743F10E969630E05354067B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F35361F23BD66DF299936F /* SLCNightLogger */ = {
+			isa = PBXGroup;
+			children = (
+				BA17BD8713B7CE313272B26E /* Pod */,
+				BC487BBE434632670B933CA7 /* Support Files */,
 			);
 			name = SLCNightLogger;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D8B9AE9FD17D1E25F218A939 /* Classes */ = {
+		B070FF2C3F7AEEAAB0E412B7 = {
 			isa = PBXGroup;
 			children = (
-				587D157769A707DDD4502337 /* ReplaceMe.m */,
-				5687BE56CF164AB59373F5D8 /* SLCNightLogger.h */,
-				CC6B8BC59CB93CBE4CFCF6E5 /* SLCNightLogger.m */,
+				056738DD0C130EA07EFF562C /* Podfile */,
+				8AF36F86FC1E711B451E22EA /* Development Pods */,
+				A0932176B8A2C79B190BD096 /* Frameworks */,
+				E1E78543EB3FB472FB59D8EB /* Products */,
+				FA43BCB937622D6F85B74D34 /* Targets Support Files */,
 			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
-		E4FC40B2BB28EBAD02F3776D /* Frameworks */ = {
+		BA17BD8713B7CE313272B26E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9FB135192B81E48D92CAB315 /* iOS */,
+				3CE4C9EA22740EA8BDA81E2C /* Classes */,
 			);
-			name = Frameworks;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC487BBE434632670B933CA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				775605A9E5FD13C69424F899 /* Info.plist */,
+				F49589F2999A662ADE4A8B25 /* Info.plist */,
+				86900C9B61ABB603AAFE3098 /* Pods-SLCNightLogger_Example-SLCNightLogger.modulemap */,
+				1F49A362351BE1EA61291608 /* Pods-SLCNightLogger_Example-SLCNightLogger.xcconfig */,
+				24020ED22B09B61579137C24 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */,
+				74CA9481E001ECCC53784FF1 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m */,
+				838400BC0962415C6C40CA7C /* Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch */,
+				90E9316A63F03FB9296CC69C /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h */,
+				F7F8275AE594720E50B996C7 /* Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap */,
+				83BD5975D8E836167B1C0EA0 /* Pods-SLCNightLogger_Tests-SLCNightLogger.xcconfig */,
+				080495276332A936C8835C72 /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */,
+				A607F2180D1DD4EE0382C5B3 /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m */,
+				6082DB6389FE4C0A06969EDC /* Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch */,
+				8F78876BAFDD0DADE8F45232 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger";
+			sourceTree = "<group>";
+		};
+		E1E78543EB3FB472FB59D8EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B7CC43BD195F9B53A4DEC8 /* Pods_SLCNightLogger_Example.framework */,
+				C6B4AE6066126C979CA268F7 /* Pods_SLCNightLogger_Tests.framework */,
+				E670AE661D13A229D8199F55 /* SLCNightLogger.bundle */,
+				C5C87916E6900692B936C0B3 /* SLCNightLogger.bundle */,
+				AFF742FBC27E87F783237B14 /* SLCNightLogger.framework */,
+				BF93A6FEA035D0C6454EE1E2 /* SLCNightLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA43BCB937622D6F85B74D34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57E948E466EA1265A8C42DD1 /* Pods-SLCNightLogger_Example */,
+				1F2A011379123BB44BE15A5A /* Pods-SLCNightLogger_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AB70F026370B6DDDCA47039 /* Headers */ = {
+		05CEB04283C6EBA9C5B1A4F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5778F7AC88111CEAB6E917E /* Pods-SLCNightLogger_Example-umbrella.h in Headers */,
+				487153F9DDD398AE31E70321 /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h in Headers */,
+				F0021FEF7A9DB397C6F81AAF /* SLCDayLogger.h in Headers */,
+				BC43912F9D559C8BE267167B /* SLCNightLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55BC8BC1CC288233701977D7 /* Headers */ = {
+		532EAD3460171FD1D837F4C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78F73FF4CBCB3C86B5490BE /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h in Headers */,
-				D7935B912EEB96A4261D06BD /* SLCNightLogger.h in Headers */,
+				7C75656F71B773C0B2C2A275 /* Pods-SLCNightLogger_Example-SLCNightLogger-umbrella.h in Headers */,
+				DEED6483BA08754C58483499 /* SLCDayLogger.h in Headers */,
+				A84DD4E2D7AD4881D3EC079D /* SLCNightLogger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D05A197B7FC7E0C3A7E8D524 /* Headers */ = {
+		861E3299F86EFA2400FD8DE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB7FC9E97BD8835AC9CFA2D /* Pods-SLCNightLogger_Tests-umbrella.h in Headers */,
+				501AA9118AC3162306CB9BF8 /* Pods-SLCNightLogger_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD32844D79AA217876E1880 /* Headers */ = {
+		A5B8302FBF2CB1492243A094 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24F5D245F9D0CF1B344305A /* Pods-SLCNightLogger_Tests-SLCNightLogger-umbrella.h in Headers */,
-				225DF9BBECE51457417EEF97 /* SLCNightLogger.h in Headers */,
+				222779E1F5CC89EE0CB2FDAD /* Pods-SLCNightLogger_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2FB80E2FB775619D96B16BA8 /* Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger */ = {
+		0F92AA0E08F962964C504D5A /* Pods-SLCNightLogger_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A19F65A8893309A2AF46B4C1 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger" */;
+			buildConfigurationList = C6F0C9A3AC0B76DAB46FFF43 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests" */;
 			buildPhases = (
-				546E73EB8D044A626A21CFFE /* Sources */,
-				4FF36F06BA5A276592D0130C /* Frameworks */,
-				52DC58E9B1FD5BD7F0C61B2F /* Resources */,
+				FAE1F5B350C42DC07F163DED /* Sources */,
+				AF043DE88F9595749AEDCC4A /* Frameworks */,
+				861E3299F86EFA2400FD8DE4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ED731AD36627BA3903BD8FC0 /* PBXTargetDependency */,
 			);
-			name = "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger";
-			productName = "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger";
-			productReference = FC4BB96980F363329BD595BA /* SLCNightLogger.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		4F0E0DDEBAE9831B9301D932 /* Pods-SLCNightLogger_Tests-SLCNightLogger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4882A120B51B867A99DAE2B8 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger" */;
-			buildPhases = (
-				CC040AD051A57029112397E5 /* Sources */,
-				3D64CF8ABA07EA9BFFC434E3 /* Frameworks */,
-				60B5A9EDCA660866FB95C0D2 /* Resources */,
-				FAD32844D79AA217876E1880 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1022B26B056A708BE40CD0DF /* PBXTargetDependency */,
-			);
-			name = "Pods-SLCNightLogger_Tests-SLCNightLogger";
-			productName = "Pods-SLCNightLogger_Tests-SLCNightLogger";
-			productReference = BCA08D2D3130CA40041E9DF0 /* SLCNightLogger.framework */;
+			name = "Pods-SLCNightLogger_Tests";
+			productName = "Pods-SLCNightLogger_Tests";
+			productReference = C6B4AE6066126C979CA268F7 /* Pods_SLCNightLogger_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		54D4988AC3221039E4E2D5D6 /* Pods-SLCNightLogger_Example */ = {
+		11B391BD82FB1A69D49BF76A /* Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9551AD877F62C2123187DF0A /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example" */;
+			buildConfigurationList = 5EF63C7F3EBB6A5452EB59A6 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger" */;
 			buildPhases = (
-				B384084C6FD0DF1B7C34DDB8 /* Sources */,
-				88751039C3D79FE21CC53261 /* Frameworks */,
-				3AB70F026370B6DDDCA47039 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				59B627130B22D74BA34C7EC3 /* PBXTargetDependency */,
-			);
-			name = "Pods-SLCNightLogger_Example";
-			productName = "Pods-SLCNightLogger_Example";
-			productReference = 79C8FFFC6857BF5C381EB513 /* Pods_SLCNightLogger_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		614C04205080EE05D8391EBC /* Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB6D31363F13CEE3FFDCF230 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger" */;
-			buildPhases = (
-				8C5C0AED0E635D9C0F4FFADE /* Sources */,
-				133978FF9A7F6DBF39D0A9F8 /* Frameworks */,
-				6CA7D314AF8A8F60205E4A4E /* Resources */,
+				FB1C8C4A966E0DD49425132C /* Sources */,
+				41BA8DFE04D72FDFBB45CE89 /* Frameworks */,
+				30A0FD71D701F3CD066BE868 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -413,191 +387,258 @@
 			);
 			name = "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger";
 			productName = "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger";
-			productReference = 1D2EEDA1586BB77965573E64 /* SLCNightLogger.bundle */;
+			productReference = E670AE661D13A229D8199F55 /* SLCNightLogger.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		796527AD6E2012FE4DCF83C0 /* Pods-SLCNightLogger_Tests */ = {
+		8683EAFF4B40EC696B261C8F /* Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5EA9A127E59CD0161EBCAFC /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests" */;
+			buildConfigurationList = 9E666D60500C79B923B47E59 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger" */;
 			buildPhases = (
-				CBDB9CED06A315C77E2583F7 /* Sources */,
-				48800351C17B50BC4AF2DF00 /* Frameworks */,
-				D05A197B7FC7E0C3A7E8D524 /* Headers */,
+				FC47569ABCE577E4310FF8C2 /* Sources */,
+				F59456193056B840539DED7E /* Frameworks */,
+				24E89B04946C3E1F4B80FBD7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8E9D028E6B705592BDE6610B /* PBXTargetDependency */,
 			);
-			name = "Pods-SLCNightLogger_Tests";
-			productName = "Pods-SLCNightLogger_Tests";
-			productReference = B0E4088A356533A033EC5A31 /* Pods_SLCNightLogger_Tests.framework */;
+			name = "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger";
+			productName = "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger";
+			productReference = C5C87916E6900692B936C0B3 /* SLCNightLogger.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C00C8D1822C53DB9561DEF56 /* Pods-SLCNightLogger_Tests-SLCNightLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3238BD95DD1CE76DBE3DF4F /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger" */;
+			buildPhases = (
+				C1C5A4E4B6B32225B60664E7 /* Sources */,
+				67CCC3B767D2CC090DC26E9C /* Frameworks */,
+				962BC66E361256B253934B27 /* Resources */,
+				05CEB04283C6EBA9C5B1A4F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				726FD686DFE157A67CB69ED0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SLCNightLogger_Tests-SLCNightLogger";
+			productName = "Pods-SLCNightLogger_Tests-SLCNightLogger";
+			productReference = AFF742FBC27E87F783237B14 /* SLCNightLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A64AD35A4A69097237A45E2F /* Pods-SLCNightLogger_Example-SLCNightLogger */ = {
+		C35D27F6CC5BADCFC991DC00 /* Pods-SLCNightLogger_Example-SLCNightLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30080D06B154AEC65515D425 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger" */;
+			buildConfigurationList = A276B211EA6721B406728BD8 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger" */;
 			buildPhases = (
-				9E1A515C4FDE72CF7F770588 /* Sources */,
-				87730A92F8F38F0BC0AC8436 /* Frameworks */,
-				9DD00435BB727E43C0B02550 /* Resources */,
-				55BC8BC1CC288233701977D7 /* Headers */,
+				8CDF61C878EB73D0FAF78190 /* Sources */,
+				D2077097FAC4D8DCDEED8F46 /* Frameworks */,
+				78FF32C890090B7D5F2901D4 /* Resources */,
+				532EAD3460171FD1D837F4C6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C7580A09237D429F53E6CE45 /* PBXTargetDependency */,
+				CE6AF86BC96C49DDF6630911 /* PBXTargetDependency */,
 			);
 			name = "Pods-SLCNightLogger_Example-SLCNightLogger";
 			productName = "Pods-SLCNightLogger_Example-SLCNightLogger";
-			productReference = BABF24A6944B081062B7AEEB /* SLCNightLogger.framework */;
+			productReference = BF93A6FEA035D0C6454EE1E2 /* SLCNightLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAAA27B7059D5699B7589FDF /* Pods-SLCNightLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E6A04E56F12250645920EE /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example" */;
+			buildPhases = (
+				7A6F94C6B8684C7CDCBE1E67 /* Sources */,
+				AC1A1B1BEA76EA4C81564C49 /* Frameworks */,
+				A5B8302FBF2CB1492243A094 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F70BD09BC251C030771A0FD /* PBXTargetDependency */,
+			);
+			name = "Pods-SLCNightLogger_Example";
+			productName = "Pods-SLCNightLogger_Example";
+			productReference = 65B7CC43BD195F9B53A4DEC8 /* Pods_SLCNightLogger_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E9D7EB592FE66B8A462CFC23 /* Project object */ = {
+		23DCB073515880B28B452367 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 5665C639987CCCB92B35428F /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 57CC8DB82A0DC8511A8DB214 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0CDB7A4AC3BB520E2F09994B;
-			productRefGroup = 1D69F31C7FD7435D381F2000 /* Products */;
+			mainGroup = B070FF2C3F7AEEAAB0E412B7;
+			productRefGroup = E1E78543EB3FB472FB59D8EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54D4988AC3221039E4E2D5D6 /* Pods-SLCNightLogger_Example */,
-				A64AD35A4A69097237A45E2F /* Pods-SLCNightLogger_Example-SLCNightLogger */,
-				614C04205080EE05D8391EBC /* Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger */,
-				796527AD6E2012FE4DCF83C0 /* Pods-SLCNightLogger_Tests */,
-				4F0E0DDEBAE9831B9301D932 /* Pods-SLCNightLogger_Tests-SLCNightLogger */,
-				2FB80E2FB775619D96B16BA8 /* Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger */,
+				DAAA27B7059D5699B7589FDF /* Pods-SLCNightLogger_Example */,
+				C35D27F6CC5BADCFC991DC00 /* Pods-SLCNightLogger_Example-SLCNightLogger */,
+				11B391BD82FB1A69D49BF76A /* Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger */,
+				0F92AA0E08F962964C504D5A /* Pods-SLCNightLogger_Tests */,
+				C00C8D1822C53DB9561DEF56 /* Pods-SLCNightLogger_Tests-SLCNightLogger */,
+				8683EAFF4B40EC696B261C8F /* Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52DC58E9B1FD5BD7F0C61B2F /* Resources */ = {
+		24E89B04946C3E1F4B80FBD7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60B5A9EDCA660866FB95C0D2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE1D7AEF0FA3A97515F24616 /* SLCNightLogger.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CA7D314AF8A8F60205E4A4E /* Resources */ = {
+		30A0FD71D701F3CD066BE868 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD00435BB727E43C0B02550 /* Resources */ = {
+		78FF32C890090B7D5F2901D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCDEDEC2425A61726A31BF4 /* SLCNightLogger.bundle in Resources */,
+				65D920499CCFE4148AC8B7C9 /* SLCNightLogger.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962BC66E361256B253934B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17343C265EA747BC3802548 /* SLCNightLogger.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		546E73EB8D044A626A21CFFE /* Sources */ = {
+		7A6F94C6B8684C7CDCBE1E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27360F6F7773BBB4A9EC0B9B /* Pods-SLCNightLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CDF61C878EB73D0FAF78190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2235C647860B795CC5935 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m in Sources */,
+				F681C23F87C55605D1A80DAB /* ReplaceMe.m in Sources */,
+				F99B5D63628B45E7EECE0912 /* SLCDayLogger.m in Sources */,
+				1F212D0526545FDF74C9E32D /* SLCNightLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C5A4E4B6B32225B60664E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0564C82E062FE607F844351 /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m in Sources */,
+				158E71B59E33BA0273AB97FF /* ReplaceMe.m in Sources */,
+				ACD4C9FD1D684656143E33B2 /* SLCDayLogger.m in Sources */,
+				E84CD38969217A99EFAA3633 /* SLCNightLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE1F5B350C42DC07F163DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59185B248B86A35A82DE056 /* Pods-SLCNightLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1C8C4A966E0DD49425132C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C5C0AED0E635D9C0F4FFADE /* Sources */ = {
+		FC47569ABCE577E4310FF8C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E1A515C4FDE72CF7F770588 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA5D7E9D517DA64F5FB8F381 /* Pods-SLCNightLogger_Example-SLCNightLogger-dummy.m in Sources */,
-				2C04E1EB5BC105D9430893E6 /* ReplaceMe.m in Sources */,
-				3F74CEDBD82321B2EF09F747 /* SLCNightLogger.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B384084C6FD0DF1B7C34DDB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F83576A51550F42F500EB5B /* Pods-SLCNightLogger_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBDB9CED06A315C77E2583F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9BEDF0D8FB89E57500E3AD4 /* Pods-SLCNightLogger_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC040AD051A57029112397E5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				960CEC84A235CBBDEB3D55C8 /* Pods-SLCNightLogger_Tests-SLCNightLogger-dummy.m in Sources */,
-				67A9212606689AE62EAED341 /* ReplaceMe.m in Sources */,
-				21610B8135C3D0FCA917AD32 /* SLCNightLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1022B26B056A708BE40CD0DF /* PBXTargetDependency */ = {
+		726FD686DFE157A67CB69ED0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger";
-			target = 2FB80E2FB775619D96B16BA8 /* Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger */;
-			targetProxy = 13E383B3D2D063A742AC9117 /* PBXContainerItemProxy */;
+			target = 8683EAFF4B40EC696B261C8F /* Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger */;
+			targetProxy = 800E514BC15BFD3CED7AD381 /* PBXContainerItemProxy */;
 		};
-		59B627130B22D74BA34C7EC3 /* PBXTargetDependency */ = {
+		7F70BD09BC251C030771A0FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SLCNightLogger_Example-SLCNightLogger";
-			target = A64AD35A4A69097237A45E2F /* Pods-SLCNightLogger_Example-SLCNightLogger */;
-			targetProxy = 72CA18D4D2A184335A6E3B89 /* PBXContainerItemProxy */;
+			target = C35D27F6CC5BADCFC991DC00 /* Pods-SLCNightLogger_Example-SLCNightLogger */;
+			targetProxy = 6EC62F63358EEA37EC444C40 /* PBXContainerItemProxy */;
 		};
-		8E9D028E6B705592BDE6610B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-SLCNightLogger_Tests-SLCNightLogger";
-			target = 4F0E0DDEBAE9831B9301D932 /* Pods-SLCNightLogger_Tests-SLCNightLogger */;
-			targetProxy = 21D0D19C326AB372D9210928 /* PBXContainerItemProxy */;
-		};
-		C7580A09237D429F53E6CE45 /* PBXTargetDependency */ = {
+		CE6AF86BC96C49DDF6630911 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger";
-			target = 614C04205080EE05D8391EBC /* Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger */;
-			targetProxy = BE61C0ECAAD2D0B5ABA2217D /* PBXContainerItemProxy */;
+			target = 11B391BD82FB1A69D49BF76A /* Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger */;
+			targetProxy = 0F67E433B84261785D98F243 /* PBXContainerItemProxy */;
+		};
+		ED731AD36627BA3903BD8FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLCNightLogger_Tests-SLCNightLogger";
+			target = C00C8D1822C53DB9561DEF56 /* Pods-SLCNightLogger_Tests-SLCNightLogger */;
+			targetProxy = C8AD26A636FE94D32FD43CBE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F5C893A29E764D09501558C /* Debug */ = {
+		0E9B5BE6448135F324C383AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF35FFFB8C73D751B042E4BB /* Pods-SLCNightLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SLCNightLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SLCNightLogger_Tests/Pods-SLCNightLogger_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SLCNightLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1992A6851AB452B7A3CFA5BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -636,7 +677,46 @@
 			};
 			name = Debug;
 		};
-		16801E12461D228AC161C996 /* Release */ = {
+		1F6FE956F934C670A6742CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SLCNightLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2728ABF551094273929B9014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24020ED22B09B61579137C24 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger/Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger/Pods-SLCNightLogger_Example-SLCNightLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SLCNightLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51267CF59A6243C1478EBFDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -670,101 +750,9 @@
 			};
 			name = Release;
 		};
-		1BCC0EB23E55112AB96204CF /* Debug */ = {
+		6B1AE3C5FF1933537004941B /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SLCNightLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		34C9DD37341971661A03EDA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SLCNightLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5EC8CDF338D71235878A3388 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SLCNightLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6B208AEF3BC61983A40F8127 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0687E717115BBA53D30C188F /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-SLCNightLogger_Tests-SLCNightLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SLCNightLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		759C900A198D84A6EC63CDEF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B35BED1470AA2C4AF6F8CCDF /* Pods-SLCNightLogger_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SLCNightLogger_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SLCNightLogger_Tests/Pods-SLCNightLogger_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SLCNightLogger_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		95795B64CE17B8C58641F9C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6044BF2B38DE639DC8F26CC /* Pods-SLCNightLogger_Example.release.xcconfig */;
+			baseConfigurationReference = ED9E7D336B5B6B840AFBEF71 /* Pods-SLCNightLogger_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -791,36 +779,9 @@
 			};
 			name = Release;
 		};
-		97814CCB71CFAF45B0E213F3 /* Release */ = {
+		732B2927CB8A433316487BCB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 443AB627B03D2B7CF22B0129 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger/Pods-SLCNightLogger_Example-SLCNightLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SLCNightLogger_Example-SLCNightLogger/Pods-SLCNightLogger_Example-SLCNightLogger.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SLCNightLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9E43F82B0A5BFD57D7204B6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F6F85D2E1BE43FD1E835857 /* Pods-SLCNightLogger_Example.debug.xcconfig */;
+			baseConfigurationReference = 43C6B52CE003287C9E30E8D0 /* Pods-SLCNightLogger_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -847,9 +808,9 @@
 			};
 			name = Debug;
 		};
-		B0141C76D4D6C20A2CFE1531 /* Release */ = {
+		7D9566F75B5686900B7B98BC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E0E9B6498249AFD5D4572DB /* Pods-SLCNightLogger_Tests.release.xcconfig */;
+			baseConfigurationReference = 8A54CF2D00C81AB8891624AB /* Pods-SLCNightLogger_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -863,7 +824,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-SLCNightLogger_Tests/Pods-SLCNightLogger_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -874,11 +835,23 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		80C1D890004B0F81DFC370EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SLCNightLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
 			name = Release;
 		};
-		BBA8F4CF291929F2B14A8ECD /* Release */ = {
+		9BF0AD41E110B27B9E0DA011 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0687E717115BBA53D30C188F /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */;
+			baseConfigurationReference = 080495276332A936C8835C72 /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -903,9 +876,60 @@
 			};
 			name = Release;
 		};
-		C8F46F7B55F57C397D9EDD80 /* Debug */ = {
+		ABC080706F27CB698F8D2F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 443AB627B03D2B7CF22B0129 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SLCNightLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E74CB28B3685EB753CEC5E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 080495276332A936C8835C72 /* Pods-SLCNightLogger_Tests-SLCNightLogger-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLCNightLogger_Tests-SLCNightLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SLCNightLogger_Tests-SLCNightLogger/Pods-SLCNightLogger_Tests-SLCNightLogger.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SLCNightLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA687172AD9E16FCBBA70D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SLCNightLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FE1D8DE937DF017E59A706CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24020ED22B09B61579137C24 /* Pods-SLCNightLogger_Example-SLCNightLogger-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -927,88 +951,76 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CC7CBB9D12B9557FBF96E4EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-SLCNightLogger_Example";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = SLCNightLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30080D06B154AEC65515D425 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger" */ = {
+		37E6A04E56F12250645920EE /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8F46F7B55F57C397D9EDD80 /* Debug */,
-				97814CCB71CFAF45B0E213F3 /* Release */,
+				732B2927CB8A433316487BCB /* Debug */,
+				6B1AE3C5FF1933537004941B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4882A120B51B867A99DAE2B8 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger" */ = {
+		57CC8DB82A0DC8511A8DB214 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B208AEF3BC61983A40F8127 /* Debug */,
-				BBA8F4CF291929F2B14A8ECD /* Release */,
+				1992A6851AB452B7A3CFA5BB /* Debug */,
+				51267CF59A6243C1478EBFDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5665C639987CCCB92B35428F /* Build configuration list for PBXProject "Pods" */ = {
+		5EF63C7F3EBB6A5452EB59A6 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F5C893A29E764D09501558C /* Debug */,
-				16801E12461D228AC161C996 /* Release */,
+				EA687172AD9E16FCBBA70D31 /* Debug */,
+				1F6FE956F934C670A6742CF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9551AD877F62C2123187DF0A /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example" */ = {
+		9E666D60500C79B923B47E59 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E43F82B0A5BFD57D7204B6A /* Debug */,
-				95795B64CE17B8C58641F9C7 /* Release */,
+				ABC080706F27CB698F8D2F58 /* Debug */,
+				80C1D890004B0F81DFC370EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A19F65A8893309A2AF46B4C1 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger-SLCNightLogger" */ = {
+		A276B211EA6721B406728BD8 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BCC0EB23E55112AB96204CF /* Debug */,
-				5EC8CDF338D71235878A3388 /* Release */,
+				FE1D8DE937DF017E59A706CE /* Debug */,
+				2728ABF551094273929B9014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB6D31363F13CEE3FFDCF230 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Example-SLCNightLogger-SLCNightLogger" */ = {
+		B3238BD95DD1CE76DBE3DF4F /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests-SLCNightLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC7CBB9D12B9557FBF96E4EC /* Debug */,
-				34C9DD37341971661A03EDA8 /* Release */,
+				E74CB28B3685EB753CEC5E65 /* Debug */,
+				9BF0AD41E110B27B9E0DA011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5EA9A127E59CD0161EBCAFC /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests" */ = {
+		C6F0C9A3AC0B76DAB46FFF43 /* Build configuration list for PBXNativeTarget "Pods-SLCNightLogger_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				759C900A198D84A6EC63CDEF /* Debug */,
-				B0141C76D4D6C20A2CFE1531 /* Release */,
+				7D9566F75B5686900B7B98BC /* Debug */,
+				0E9B5BE6448135F324C383AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E9D7EB592FE66B8A462CFC23 /* Project object */;
+	rootObject = 23DCB073515880B28B452367 /* Project object */;
 }
